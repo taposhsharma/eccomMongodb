@@ -2,7 +2,7 @@ const express = require('express');
 const crypto = require('crypto');
 const { handleErrors } = require('./middlewares');
 const User = require('../../models/user')
-const usersRepo = require('../../repositories/users');
+
 const signupTemplate = require('../../../template/views/admin/auth/signup');
 const signinTemplate = require('../../../template/views/admin/auth/signin');
 const {

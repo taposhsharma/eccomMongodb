@@ -4,7 +4,7 @@ const multer = require('multer');
 const Product = require('../../models/product')
 
 const { handleErrors, requireAuth } = require('./middlewares');
-const productsRepo = require('../../repositories/products');
+
 const productsNewTemplate = require('../../../template/views/admin/products/new');
 const productsIndexTemplate = require('../../../template/views/admin/products/index');
 const productsEditTemplate = require('../../../template/views/admin/products/edit');

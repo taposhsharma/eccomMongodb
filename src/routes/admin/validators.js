@@ -1,5 +1,5 @@
 const { check } = require('express-validator');
-const usersRepo = require('../../repositories/users');
+
 const User = require('../../models/user')
 
 module.exports = {

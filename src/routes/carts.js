@@ -1,6 +1,5 @@
 const express = require('express');
-const cartsRepo = require('../repositories/carts');
-const productsRepo = require('../repositories/products');
+
 const cartShowTemplate = require('../../template/views/carts/show');
 const Cart = require('../models/cart')
 const Product = require('../models/product')
